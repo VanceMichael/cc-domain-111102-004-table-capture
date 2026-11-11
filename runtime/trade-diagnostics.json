@@ -1,0 +1,14 @@
+[
+  {
+    "code": "non_data_column",
+    "location": {
+      "grid_col_index": 0,
+      "grid_row_index": 0,
+      "source_column": 73,
+      "source_line": 1
+    },
+    "message": "无列表头路径的 td 视为标签列，不产出事实",
+    "severity": "cell",
+    "table_key": "id:note"
+  }
+]

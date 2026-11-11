@@ -1,0 +1,477 @@
+{
+  "diagnostics": [
+    {
+      "code": "non_data_column",
+      "location": {
+        "grid_col_index": 0,
+        "grid_row_index": 0,
+        "source_column": 73,
+        "source_line": 1
+      },
+      "message": "无列表头路径的 td 视为标签列，不产出事实",
+      "severity": "cell",
+      "table_key": "id:note"
+    }
+  ],
+  "fact_index": {
+    "0e9c5ae186809c3b75e212039e7e8f2fdcb45216423a504a91e28a6b49d41f94": {
+      "column_path": [
+        "累计",
+        "金额"
+      ],
+      "grid_col_index": 1,
+      "grid_row_index": 3,
+      "row_path": [
+        "合成乙区"
+      ],
+      "source_column": 17,
+      "source_line": 5,
+      "table_key": "id:trade"
+    },
+    "2a03a3eeb685ae2b24af24d4211c5da5cbbb9b0eb3c3e38797d47b732d98dd35": {
+      "column_path": [
+        "累计",
+        "同比（%）"
+      ],
+      "grid_col_index": 2,
+      "grid_row_index": 2,
+      "row_path": [
+        "合成甲区"
+      ],
+      "source_column": 53,
+      "source_line": 4,
+      "table_key": "id:trade"
+    },
+    "54515de0ad127ae04b21ee08be7361011d56c239895fdb60d97690f81dab8271": {
+      "column_path": [
+        "累计",
+        "同比（%）"
+      ],
+      "grid_col_index": 2,
+      "grid_row_index": 3,
+      "row_path": [
+        "合成乙区"
+      ],
+      "source_column": 26,
+      "source_line": 5,
+      "table_key": "id:trade"
+    },
+    "55f75643d5554756a519de64c35a4d7a5722e2973ac0fea9d60a31ac5a3d5938": {
+      "column_path": [
+        "当月",
+        "金额"
+      ],
+      "grid_col_index": 3,
+      "grid_row_index": 2,
+      "row_path": [
+        "合成甲区"
+      ],
+      "source_column": 65,
+      "source_line": 4,
+      "table_key": "id:trade"
+    },
+    "60a207d307dc3a26ae5ae608f5f99d4985bc4b958a152a54eadc2a3a0f260084": {
+      "column_path": [
+        "累计",
+        "金额"
+      ],
+      "grid_col_index": 1,
+      "grid_row_index": 2,
+      "row_path": [
+        "合成甲区"
+      ],
+      "source_column": 24,
+      "source_line": 4,
+      "table_key": "id:trade"
+    },
+    "6bd943e2fec086472c528a4e575095a6eb96cdb063a8854e1c783e731ba48bd1": {
+      "column_path": [
+        "当月",
+        "同比（%）"
+      ],
+      "grid_col_index": 4,
+      "grid_row_index": 3,
+      "row_path": [
+        "合成乙区"
+      ],
+      "source_column": 49,
+      "source_line": 5,
+      "table_key": "id:trade"
+    },
+    "d446a7e29964d966d7f7ec8404cc27dfef366bed786ce5e0c61189a29763c581": {
+      "column_path": [
+        "当月",
+        "金额"
+      ],
+      "grid_col_index": 3,
+      "grid_row_index": 3,
+      "row_path": [
+        "合成乙区"
+      ],
+      "source_column": 38,
+      "source_line": 5,
+      "table_key": "id:trade"
+    },
+    "e881fdf177f3bcdc2e03bba11e5b68a55461f6fb281a47f93394670e79784cf0": {
+      "column_path": [
+        "当月",
+        "同比（%）"
+      ],
+      "grid_col_index": 4,
+      "grid_row_index": 2,
+      "row_path": [
+        "合成甲区"
+      ],
+      "source_column": 75,
+      "source_line": 4,
+      "table_key": "id:trade"
+    }
+  },
+  "page_footnotes": {
+    "1": "初步数据。"
+  },
+  "source": "fixtures/trade.html",
+  "tables": [
+    {
+      "caption": "",
+      "contained_in_table_key": null,
+      "facts": [],
+      "grid": {
+        "column_count": 1,
+        "row_count": 1
+      },
+      "header_paths": [
+        []
+      ],
+      "id": "note",
+      "is_primary": false,
+      "role": "note",
+      "selection_signals": {
+        "column_count": 1,
+        "has_caption": false,
+        "header_column_count": 0,
+        "nested": false,
+        "numeric_cell_count": 0,
+        "row_count": 1,
+        "th_cell_count": 0
+      },
+      "structure_solvable": true,
+      "table_key": "id:note",
+      "unit_rows": []
+    },
+    {
+      "caption": "货物贸易（金额：亿元）",
+      "contained_in_table_key": null,
+      "facts": [
+        {
+          "column_path": [
+            "累计",
+            "金额"
+          ],
+          "fact_id": "60a207d307dc3a26ae5ae608f5f99d4985bc4b958a152a54eadc2a3a0f260084",
+          "footnote_markers": [
+            "1"
+          ],
+          "location": {
+            "grid_col_index": 1,
+            "grid_row_index": 2,
+            "source_column": 24,
+            "source_line": 4
+          },
+          "missing_reason": null,
+          "numeric_text": "1,234.50",
+          "raw_text": "1,234.501",
+          "row_path": [
+            "合成甲区"
+          ],
+          "status": "value",
+          "table_key": "id:trade",
+          "unit": "亿元",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": {
+                "source_column": 18,
+                "source_line": 2
+              },
+              "source": "caption",
+              "unit": "亿元"
+            }
+          ],
+          "value": 1234.5
+        },
+        {
+          "column_path": [
+            "累计",
+            "同比（%）"
+          ],
+          "fact_id": "2a03a3eeb685ae2b24af24d4211c5da5cbbb9b0eb3c3e38797d47b732d98dd35",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 2,
+            "grid_row_index": 2,
+            "source_column": 53,
+            "source_line": 4
+          },
+          "missing_reason": null,
+          "numeric_text": "8.4",
+          "raw_text": "8.4",
+          "row_path": [
+            "合成甲区"
+          ],
+          "status": "value",
+          "table_key": "id:trade",
+          "unit": "%",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": null,
+              "source": "header_layer_1",
+              "unit": "%"
+            }
+          ],
+          "value": 8.4
+        },
+        {
+          "column_path": [
+            "当月",
+            "金额"
+          ],
+          "fact_id": "55f75643d5554756a519de64c35a4d7a5722e2973ac0fea9d60a31ac5a3d5938",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 3,
+            "grid_row_index": 2,
+            "source_column": 65,
+            "source_line": 4
+          },
+          "missing_reason": null,
+          "numeric_text": "0",
+          "raw_text": "0",
+          "row_path": [
+            "合成甲区"
+          ],
+          "status": "value",
+          "table_key": "id:trade",
+          "unit": "亿元",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": {
+                "source_column": 18,
+                "source_line": 2
+              },
+              "source": "caption",
+              "unit": "亿元"
+            }
+          ],
+          "value": 0.0
+        },
+        {
+          "column_path": [
+            "当月",
+            "同比（%）"
+          ],
+          "fact_id": "e881fdf177f3bcdc2e03bba11e5b68a55461f6fb281a47f93394670e79784cf0",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 4,
+            "grid_row_index": 2,
+            "source_column": 75,
+            "source_line": 4
+          },
+          "missing_reason": "dash",
+          "numeric_text": "—",
+          "raw_text": "—",
+          "row_path": [
+            "合成甲区"
+          ],
+          "status": "missing",
+          "table_key": "id:trade",
+          "unit": "%",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": null,
+              "source": "header_layer_1",
+              "unit": "%"
+            }
+          ],
+          "value": null
+        },
+        {
+          "column_path": [
+            "累计",
+            "金额"
+          ],
+          "fact_id": "0e9c5ae186809c3b75e212039e7e8f2fdcb45216423a504a91e28a6b49d41f94",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 1,
+            "grid_row_index": 3,
+            "source_column": 17,
+            "source_line": 5
+          },
+          "missing_reason": "blank",
+          "numeric_text": "",
+          "raw_text": "",
+          "row_path": [
+            "合成乙区"
+          ],
+          "status": "missing",
+          "table_key": "id:trade",
+          "unit": "亿元",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": {
+                "source_column": 18,
+                "source_line": 2
+              },
+              "source": "caption",
+              "unit": "亿元"
+            }
+          ],
+          "value": null
+        },
+        {
+          "column_path": [
+            "累计",
+            "同比（%）"
+          ],
+          "fact_id": "54515de0ad127ae04b21ee08be7361011d56c239895fdb60d97690f81dab8271",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 2,
+            "grid_row_index": 3,
+            "source_column": 26,
+            "source_line": 5
+          },
+          "missing_reason": "undisclosed",
+          "numeric_text": "未披露",
+          "raw_text": "未披露",
+          "row_path": [
+            "合成乙区"
+          ],
+          "status": "missing",
+          "table_key": "id:trade",
+          "unit": "%",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": null,
+              "source": "header_layer_1",
+              "unit": "%"
+            }
+          ],
+          "value": null
+        },
+        {
+          "column_path": [
+            "当月",
+            "金额"
+          ],
+          "fact_id": "d446a7e29964d966d7f7ec8404cc27dfef366bed786ce5e0c61189a29763c581",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 3,
+            "grid_row_index": 3,
+            "source_column": 38,
+            "source_line": 5
+          },
+          "missing_reason": null,
+          "numeric_text": "20",
+          "raw_text": "20",
+          "row_path": [
+            "合成乙区"
+          ],
+          "status": "value",
+          "table_key": "id:trade",
+          "unit": "亿元",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": {
+                "source_column": 18,
+                "source_line": 2
+              },
+              "source": "caption",
+              "unit": "亿元"
+            }
+          ],
+          "value": 20.0
+        },
+        {
+          "column_path": [
+            "当月",
+            "同比（%）"
+          ],
+          "fact_id": "6bd943e2fec086472c528a4e575095a6eb96cdb063a8854e1c783e731ba48bd1",
+          "footnote_markers": [],
+          "location": {
+            "grid_col_index": 4,
+            "grid_row_index": 3,
+            "source_column": 49,
+            "source_line": 5
+          },
+          "missing_reason": null,
+          "numeric_text": "2.0",
+          "raw_text": "2.0",
+          "row_path": [
+            "合成乙区"
+          ],
+          "status": "value",
+          "table_key": "id:trade",
+          "unit": "%",
+          "unit_conflict": false,
+          "unit_sources": [
+            {
+              "location": null,
+              "source": "header_layer_1",
+              "unit": "%"
+            }
+          ],
+          "value": 2.0
+        }
+      ],
+      "grid": {
+        "column_count": 5,
+        "row_count": 4
+      },
+      "header_paths": [
+        [],
+        [
+          "累计",
+          "金额"
+        ],
+        [
+          "累计",
+          "同比（%）"
+        ],
+        [
+          "当月",
+          "金额"
+        ],
+        [
+          "当月",
+          "同比（%）"
+        ]
+      ],
+      "id": "trade",
+      "is_primary": true,
+      "role": "data",
+      "selection_signals": {
+        "column_count": 5,
+        "has_caption": true,
+        "header_column_count": 4,
+        "nested": false,
+        "numeric_cell_count": 5,
+        "row_count": 4,
+        "th_cell_count": 9
+      },
+      "structure_solvable": true,
+      "table_key": "id:trade",
+      "unit_rows": []
+    }
+  ]
+}
